@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# NutriTransform: Uncovering the Science of Cooking
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Welcome to NutriTransform, the premier destination for food enthusiasts, home cooks, and nutritionists seeking to delve into the fascinating world of food science. Our website is dedicated to exploring how cooking methods alter the nutritional profile of foods, offering insights and guidance to help you maximize the health benefits of your meals.
 
-## About Laravel
+## Discover How Cooking Alters Nutrients
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+At NutriTransform, we believe in the power of knowledge to transform everyday cooking into a nutrient-boosting culinary experience. Our resources are designed to enlighten you on:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Raw vs. Cooked:** Uncover the nutritional differences between raw and cooked foods and how to choose the best preparation method for each ingredient.
+- **The Impact of Heat:** Learn how various cooking temperatures affect vitamins, minerals, and proteins in different foods (future).
+- **Cooking Methods Explored:** From steaming and boiling to grilling and frying, discover which techniques preserve nutrients and which may diminish their value (future).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Features
 
-## Learning Laravel
+- **Nutrient Database:** Search our comprehensive database for detailed nutrient profiles of common and exotic foods, both raw and cooked.
+- **Interactive Tools:** Utilize our interactive tools to compare the nutritional changes foods undergo during the cooking process (future).
+- **Expert Advice:** Read articles, watch videos, and engage with content created by nutritionists and culinary experts to enhance your cooking and eating habits (future).
+- **Community Engagement:** Join our community to share recipes, cooking tips, and nutritional insights with fellow food enthusiasts (future).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# NutriTransform Website: Technical Overview
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Welcome to the technical documentation for NutriTransform, a cutting-edge platform dedicated to exploring the science behind cooking and its effects on food nutrients. This document is designed for developers interested in understanding the architecture of NutriTransform, built using the robust and elegant Laravel framework, and provides a step-by-step guide for setting up and running the project locally.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Built With Laravel
 
-## Laravel Sponsors
+NutriTransform leverages Laravel, a PHP framework known for its expressive syntax, to deliver a seamless and interactive user experience. Laravel's MVC architecture, advanced ORM, and comprehensive routing capabilities enable us to efficiently handle complex data relationships and user interactions.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Features
 
-### Premium Partners
+- **Responsive Design:** Utilizing Bootstrap for a mobile-friendly, responsive layout.
+- **Dynamic Content:** AJAX for asynchronous data fetching, enhancing the user's browsing experience.
+- **Secure Authentication:** Built-in Laravel authentication for a secure sign-in process.
+- **Interactive Database:** Eloquent ORM for seamless data retrieval and manipulation.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+- PHP (^7.3|^8.0)
+- Composer
+- Node.js and NPM
+- A web server like Apache or Nginx
+- MySQL or another Laravel-supported database system
+
+### Clone the Repository
+
+1. Open your terminal.
+2. Navigate to the directory where you want to clone the NutriTransform repository.
+3. Run: `git clone https://github.com/hungha1512/NutriTransform.git`
+4. Navigate into the cloned directory: `cd NutriTransform`
+
+### Set Up Environment
+
+1. Copy the `.env.example` file to a new `.env` file: `cp .env.example .env`
+2. Open `.env` and configure your database and other environment-specific settings (such as database name, hostname, etc...).
+
+### Install Dependencies
+
+1. Run `composer install` to install PHP dependencies.
+2. Run `npm install` to install Node.js dependencies.
+3. Run `npm run dev` to compile assets.
+
+### Database Setup
+
+1. Create a database that Laravel will use to store data.
+2. Run `php artisan migrate` to set up your database schema.
+3. Run `php artisan db:seed` to populate your database with initial data.
+4. If the `php artisna db:seed` don't run correctly, adding the `--class=FoodNameSeeder`, `--class=RawFoodNutrientSeeder`, `--class=CookedFoodNutrientSeeder` (1 per time).
+
+### Running the Application
+
+1. Generate an application key: `php artisan key:generate`
+2. Serve the application: `php artisan serve`
+3. Open your web browser and navigate to the displayed URL, usually `http://localhost:8000`.
+
+### Additional Configuration (Optional)
+
+- **Mail Configuration:** For features like email verification, configure your mail settings in the `.env` file.
+- **Queue Configuration:** For background job processing, set up your queue settings in the `.env` file.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+We welcome contributions! If you'd like to improve the NutriTransform website, please fork the repository, make your changes, and submit a pull request.
 
-## Code of Conduct
+## Support
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+For support, please open an issue in the GitHub repository or contact the project maintainers directly.
 
-## Security Vulnerabilities
+NutriTransform is committed to providing a comprehensive platform for understanding the nutritional science of cooking. By following these setup instructions, developers can contribute to a project that empowers individuals to make informed dietary choices.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
