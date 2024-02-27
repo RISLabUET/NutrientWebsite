@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FoodSearchController;
+use App\Http\Controllers\FoodDetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+Route::get('/', function(){
+    return view('viewNutrient.search');
 });
 
-Route::get('/nutrient', function() {
-    return view('/viewNutrient/nutrient');
-});
+
+Route::get('/food-detail/{id}', [FoodDetailController::class, 'show']);
+
+Route::get('/food-search', [FoodSearchController::class, 'search'])->name('food.search');
+

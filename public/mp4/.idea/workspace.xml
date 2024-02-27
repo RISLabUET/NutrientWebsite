@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45017523-ee0f-4fcc-8175-326dc8f4152c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../app/Http/Controllers/FoodDetailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/Http/Controllers/FoodNameController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/Http/Controllers/FoodSearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/Http/Controllers/RawFoodNutrientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/Listeners/no.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../app/Models/FoodName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../database/migrations/2024_02_27_030411_create_food_names_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../database/seeders/CookedFoodNutrientSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../database/seeders/FoodNameSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mp4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bg.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooking.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/views/viewNutrient/food-details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/views/viewNutrient/search-results.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/views/viewNutrient/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../resources/views/viewNutrient/testSearch.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../app/Models/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../app/Models/CookedFoodNutrient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../app/Models/RawFoodNutrient.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../app/Models/RawFoodNutrient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/import_csv/cookedFoodNutri.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../database/import_csv/cookedFoodNutri.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/import_csv/rawFoodNutri.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../database/import_csv/rawFoodNutri.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/migrations/2024_02_26_161454_create_food_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../database/migrations/2024_02_27_023114_create_cooked_food_nutrients_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/migrations/2024_02_26_164812_create_raw_food_nutrients_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../database/migrations/2024_02_26_164812_create_raw_food_nutrients_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/seeders/FoodSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../database/seeders/RawFoodNutrientSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../database/seeders/RawFoodNutrientSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/views/viewNutrient/nutrient.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../resources/views/viewNutrient/nutrient.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cxJU4Qc915DdE4lvOx4I5DmEG6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/xampp/htdocs/Nutrient_ML/public/mp4",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45017523-ee0f-4fcc-8175-326dc8f4152c" name="Changes" comment="" />
+      <created>1709047308560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709047308560</updated>
+      <workItem from="1709047309999" duration="2000" />
+      <workItem from="1709047321491" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

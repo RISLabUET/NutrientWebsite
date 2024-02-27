@@ -37,4 +37,10 @@ class RawFoodNutrient extends Model
         'Fatty_acids_total_saturated',
         'Fatty_acids_total_monounsaturated',
         'Fatty_acids_total_polyunsaturated'];
+
+    protected $table = "raw_food_nutrients";
+
+    public function foodName() {
+        return $this->belongsTo(FoodName::class, 'id', 'id');
+    }
 }
