@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('raw_food_nutrients', function (Blueprint $table) {
+        Schema::create('cooked_food_nutrients', function (Blueprint $table) {
             $table->id();
             $table->double('Water');
             $table->double('Protein');
@@ -49,6 +49,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('raw_food_nutrients');
+        Schema::dropIfExists('cooked_food_nutrients');
     }
 };
