@@ -2,23 +2,24 @@
 
 namespace Database\Seeders;
 
+use Couchbase\KeyDeletedException;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\RawFoodNutrient;
+use App\Models\CookedFoodNutrient;
 
-class RawFoodNutrientSeeder extends Seeder
+class CookedFoodNutrientSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        RawFoodNutrient::truncate();
-        $csvData = fopen(base_path('database\import_csv\rawFoodNutri.csv'), 'r');
+        CookedFoodNutrient::truncate();
+        $csvData = fopen(base_path('database\import_csv\cookedFoodNutri.csv'), 'r');
         $transRow = true;
         while (($data = fgetcsv($csvData, 425, ',')) !== false) {
             if (!$transRow) {
-                RawFoodNutrient::create([
+                CookedFoodNutrient::create([
                     'Water' => $data['1'],
                     'Protein' => $data['2'],
                     'Total_lipid_fat' => $data['3'],
