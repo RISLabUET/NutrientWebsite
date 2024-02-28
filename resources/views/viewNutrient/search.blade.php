@@ -32,10 +32,11 @@
                 <img src="img/logo_uet.png" alt="Image Description 1" style="width: 14%; max-width: 600px; margin: 20px auto;">
                 <img src="img/logo_ag.png" alt="Image Description 2" style="width: 17%; max-width: 600px; margin: 20px auto;">
             </div>
-            <h1 class="fst-italic lh-1 mb-6">Discover How Cooking Alters Nutrients</h1>
-            <p class="mb-6">Dive into the science behind your meals with our website, where we reveal the
+            <h1 class="fst-italic fs-2 lh-1 mb-6">Discover How Cooking Alters Nutrients</h1>
+            <div class="mb-6">Dive into the science behind your meals with our website, where we reveal the
                 fascinating changes your food undergoes from raw to cooked, ensuring you maximize the nutritional value
-                in every bite.</p>
+                in every bite.</div>
+            <br>
             <form action="{{ route('food.search') }}" method="GET" id="searchForm">
                 <!-- Search input -->
                 <div class="row input-group-newsletter">
@@ -48,6 +49,20 @@
                     </div>
                 </div>
             </form>
+            <br>
+            <div class="text-start">
+                <div class="fs-6">R&D team:</div>
+                <ul class="fs-6">
+                    <li>Dao Ngoc Bich - K66AG - Faculty of Agricultural and Technology</li>
+                    <li>Ha Quang Hung - K66AG - Faculty of Agricultural and Technology</li>
+                    <li>Chu Viet Kien - K66AG - Faculty of Agricultural and Technology</li>
+                    <li>Phung Truong Trinh - K66AG - Faculty of Agricultural and Technology</li>
+                </ul>
+                <div class="fs-6">Advisor:</div>
+                <ul class="fs-6">
+                    <li>Pham Minh Trien - Ph.D - Faculty of Agricultural and Technology</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -60,6 +75,7 @@
         <a class="btn btn-dark m-3" href="https://www.tiktok.com/@fat_uet"><i class="fab fa-tiktok"></i></a>
     </div>
 </div>
+
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
