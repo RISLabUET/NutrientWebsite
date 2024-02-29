@@ -13,7 +13,7 @@
 <body>
 <div style="background-color: rgba(197, 161, 147, 0.85);">
     <h2>Search result</h2>
-    <button href="/" class="btn btn-success">Back</button>
+    <button href="{{url()->previous()}}" class="btn btn-success">Back</button>
     <hr>
     @if($results->isEmpty())
         <p>Can't find any result with your searching. Try again!</p>
